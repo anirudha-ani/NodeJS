@@ -32,28 +32,42 @@
 // setTimeout(printBacon , 5000);
 
 //Video 4 : Handling Multiple Request
+//
+// function placeAnOrder(orderNumber)
+// {
+//     console.log("Customer order:", orderNumber);
+//
+//     cookAndDeliverFood(function()
+//     {
+//         console.log("Order Done : " , orderNumber);
+//     })
+// }
+//
+// //Simulate a 5 second operation
+// function cookAndDeliverFood(callback)
+// {
+//     setTimeout(callback , 5000);
+// }
+//
+// //Simulate users web request
+// placeAnOrder(1);
+// placeAnOrder(2);
+// placeAnOrder(3);
+// placeAnOrder(4);
+// placeAnOrder(5);
+// placeAnOrder(6);
 
-function placeAnOrder(orderNumber)
-{
-    console.log("Customer order:", orderNumber);
+//Video 5: Understanding References to Objects
 
-    cookAndDeliverFood(function()
-    {
-        console.log("Order Done : " , orderNumber);
-    })
-}
+var Bucky = {
+    favFood: "bacon",
+    favMovie: "Chappie"
+};
 
-//Simulate a 5 second operation
-function cookAndDeliverFood(callback)
-{
-    setTimeout(callback , 5000);
-}
+var Person = Bucky;
+Person.favFood = "salad";
+console.log(Bucky.favFood);
 
-//Simulate users web request
-placeAnOrder(1);
-placeAnOrder(2);
-placeAnOrder(3);
-placeAnOrder(4);
-placeAnOrder(5);
-placeAnOrder(6);
 
+console.log(19 == '19');
+console.log(19 === '19');
