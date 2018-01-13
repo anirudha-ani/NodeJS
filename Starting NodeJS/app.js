@@ -92,43 +92,50 @@
 
 //Video 7: Prototype
 
-function User(){
-    this.name = "" ;
-    this.life = 100;
-    this.giveLife = function giveLife(targetPlayer)
-    {
-        targetPlayer.life += 1;
-        console.log(this.name + " gave 1 life to " + targetPlayer.name);
-    }
-}
+// function User(){
+//     this.name = "" ;
+//     this.life = 100;
+//     this.giveLife = function giveLife(targetPlayer)
+//     {
+//         targetPlayer.life += 1;
+//         console.log(this.name + " gave 1 life to " + targetPlayer.name);
+//     }
+// }
+//
+// var x = 5 ;
+//
+// var Bucky = new User();
+// var Wendy = new User();
+//
+// Bucky.name = "Bucky";
+// Wendy.name = "Wendy";
+//
+// Bucky.giveLife(Wendy);
+//
+// console.log("Bucky = " + Bucky.life);
+// console.log("Wendy = " + Wendy.life);
+//
+// // Add function or variable to a object on the fly
+//
+// User.prototype.uppercut = function uppercut(targetPlayer)
+// {
+//     targetPlayer.life -= 3 ;
+//     console.log(this.name + " just uppercutterd " + targetPlayer.name);
+// }
+//
+// Wendy.uppercut(Bucky)
+//
+//
+//
+// console.log("Bucky = " + Bucky.life);
+// console.log("Wendy = " + Wendy.life);
+//
+// User.prototype.magic  = 60 ;
 
-var x = 5 ;
 
-var Bucky = new User();
-var Wendy = new User();
+// Video 8 : Modules
 
-Bucky.name = "Bucky";
-Wendy.name = "Wendy";
+var movies = require('./movies');
 
-Bucky.giveLife(Wendy);
-
-console.log("Bucky = " + Bucky.life);
-console.log("Wendy = " + Wendy.life);
-
-// Add function or variable to a object on the fly
-
-User.prototype.uppercut = function uppercut(targetPlayer)
-{
-    targetPlayer.life -= 3 ;
-    console.log(this.name + " just uppercutterd " + targetPlayer.name);
-}
-
-Wendy.uppercut(Bucky)
-
-
-
-console.log("Bucky = " + Bucky.life);
-console.log("Wendy = " + Wendy.life);
-
-User.prototype.magic  = 60 ;
+movies.avatar();
 
