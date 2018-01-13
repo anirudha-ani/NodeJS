@@ -17,8 +17,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="2" selection-end-line="90" selection-end-column="26" />
+            <state relative-caret-position="532">
+              <caret line="117" column="50" lean-forward="false" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -127,12 +127,12 @@
       <updated>1512057096670</updated>
       <workItem from="1512057097808" duration="3891000" />
       <workItem from="1513672431126" duration="2340000" />
-      <workItem from="1515811826617" duration="923000" />
+      <workItem from="1515811826617" duration="2763000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7154000" />
+    <option name="totallyTimeSpent" value="8994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="3862" height="2122" extended-state="6" />
@@ -190,8 +190,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="2" selection-end-line="90" selection-end-column="26" />
+        <state relative-caret-position="532">
+          <caret line="117" column="50" lean-forward="false" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
