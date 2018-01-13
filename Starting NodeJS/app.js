@@ -59,15 +59,33 @@
 
 //Video 5: Understanding References to Objects
 
-var Bucky = {
-    favFood: "bacon",
-    favMovie: "Chappie"
-};
+// var Bucky = {
+//     favFood: "bacon",
+//     favMovie: "Chappie"
+// };
+//
+// var Person = Bucky;
+// Person.favFood = "salad";
+// console.log(Bucky.favFood);
+//
+// console.log(19 == '19'); // Values
+// console.log(19 === '19'); // Values and type
 
-var Person = Bucky;
-Person.favFood = "salad";
-console.log(Bucky.favFood);
-
-
-console.log(19 == '19');
-console.log(19 === '19');
+//Video 6: this
+//
+// var Bucky = {
+//     printFirstName: function(){
+//         console.log("My name is Anirudha");
+//         console.log(this === Bucky);
+//     }
+// };
+// Bucky.printFirstName();
+//
+// //The default calling context is global
+// function doSomethingWorthless()
+// {
+//     console.log("\n This is stupid");
+//     console.log(this === global);
+// }
+//
+// doSomethingWorthless();
